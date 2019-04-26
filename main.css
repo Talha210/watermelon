@@ -1,0 +1,37 @@
+.main-header {
+  margin-top: 0;
+  padding: inherit;
+  font-family: sans-serif;
+  width: 100%;
+  color: #ea5169;
+}
+
+body {
+  margin: auto;
+  font-weight: bold;
+}
+
+.info-grid {
+
+}
+
+.main-header {
+height: 200px;
+  background: #ea5169;
+  text-align: center;
+  color: black;
+}
+
+.watermelon-grid {
+  display: flow-root;
+  grid-template: 100px / 200px 200px 200px;
+  grid-gap: 5px;
+}
+
+.watermelon-grid div {
+  background-image: url("http://www.digital7.co.nz/images/category_3/Very%20high%20quality%20Bikini%20With%20Watermelons%20Fruits%20Black%20Costume%20Swimming%20Woman%20Pattern%20Melon%20Water%20FzSyWuta_5.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 50%;
+}
